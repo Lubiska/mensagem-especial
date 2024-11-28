@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensagem Especial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="page1" class="page">
+      <h1>Mensagem Especial! </h1>
+      <p>Leo, eu nem sei como te agradecer por tudo, sério! A gente se conhece há pouco tempo, mas parece que já te conheço há tempos. Desde o começo, você me deu uma força enorme em todas as atividades que fazia dentro do escotismo, principalmente agora, no ramo pioneiro, que é um ambiente completamente novo pra mim. Mesmo não estando lá, você estava sempre me ajudando, me orientando, me acolhendo. E olha que, no início, tudo parecia meio complicado, mas você fez essa transição ser muito mais fácil pra mim.
+        
+        Mas o que mais me marca, Leo, é o fato de você sempre ter sido a pessoa que me escutou de verdade. Você ouviu meus desabafos, me deixou falar sobre tudo que tava rolando, sem reclamar, sem pressa. Isso é raro, e eu me sinto muito sortuda de ter alguém como você por perto, que sabe ser amigo de verdade; que me dá espaço para crescer.
+        
+        Sabe aquele tipo de amizade que faz a gente se sentir confortável, sem pressa de ser algo "perfeito"? Pois é, encontrei isso em você. Você foi mais que um colega de escoteiro, foi um amigo que fez a diferença em vários dos meus "começos". Tô muito grata por te conhecer e ter você na minha vida, Leo. Sério, você é um baita de um viadãoooo! KKKKKKKK. Mas agora, depois de tudo isso, tenho uma grande questão para você... Quer dar uma olhada?</p>
+      <button onclick="nextPage()">Clique aqui para continuar</button>
+    </div>
+
+    <div id="page2" class="page hidden">
+      <h1>Você quer ser meu padrinho? 💐</h1>
+      <div class="buttons-container">
+        <button id="simButton" onclick="sayYes()">Sim</button>
+        <button id="noButton">Não...</button>
+      </div>
+    </div>
+
+    <div id="page3" class="page hidden">
+      <h1>EBAAAA! Agora quer dizer que posso encher seu saco por alguns aninhos?</h1>
+      <p>Que sorte a sua...espero que seu estoque de paciência esteja cheio! hehe</p>
+      <img src="amigo.jpg" alt="Amigo Especial" />
+    </div>
+
+    <!-- Nova página para a imagem "não.jpg" -->
+    <div id="page4" class="page hidden">
+      <h1>Você escolheu "Não"??? Pra você essa opção não existe...</h1>
+      <img src="não.jpg" alt="Imagem de Não" />
+      <!-- Botão para voltar à página 2 -->
+      <button onclick="goBackToPage2()">Voltar para a escolha</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
